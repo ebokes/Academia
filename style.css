@@ -1,0 +1,38 @@
+*{
+ margin: 0;
+ /* padding: 0; */
+}
+body{
+ background-image: url(img/36267\ \(1000×667\).jpg);
+ margin: 0;
+ padding:15px 60px;
+ color: white;
+ font-family: 'Roboto', sans-serif;
+
+}
+ul{
+ list-style: none;
+ 
+}
+.value{
+ font-weight: 600;
+}
+.button-container{
+ padding: 25px 0;
+}
+.get-started{
+ padding: 20px 25px;
+ border: none;
+ border-radius: 4px;
+ background:#1eb2a6;
+ color:white;
+ font-weight: 500;
+}
+.view-course{
+ padding: 20px 25px;
+ border: none;
+ border-radius: 4px;
+ background:white;
+ color: #1eb2a6;
+ font-weight: 500;
+}
