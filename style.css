@@ -43,10 +43,23 @@ header{
  margin: 0;
  font-size: 1em;
 }
+.clock-div{
+ display: inline-block;
+}
+.clock{
+ width:40px;
+ margin-right: 10px;
+}
+.clock-clock-div{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
 .time-contact{
  display: flex;
  align-items: center;
- width: 40%;
+ width: 45%;
  justify-content: space-between;
 }
 .head-container{
