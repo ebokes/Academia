@@ -55,9 +55,10 @@ header{
 
 .nav-bar-container{
  height: 30px 0;
- margin: 30px 0;
+ margin: 30px 100px 30px 0;
  background:rgba(249, 250, 250, 0.15);
  padding:0;
+ position: ab;
 }
 .nav-bar{
  line-height: 0.4;
@@ -74,14 +75,24 @@ header{
  display: inline-block;
  margin: 0 25px;
 }
+.nav-bar ul li:first-child:active{
+ list-style: none;
+ display: inline-block;
+ margin: 0 25px;
+ color:#1eb2a6;
+}
 .nav-bar ul li a{
  text-decoration: none;
  color: white;
 }
-.nav-bar ul li a:active{
+/* .nav-bar ul li a:first-child{
  text-decoration: none;
  color: #1eb2a6;
-}
+} */
+/* .nav-bar ul li a:active{
+ text-decoration: none;
+ color: #1eb2a6;
+} */
 .nav-bar ul li a:hover{
  text-decoration: none;
  color: #1eb2a6;
@@ -104,6 +115,8 @@ header{
  height: 100px;
  width: 160px;
  background: #1eb2a6;
+ position: absolute;
+ /* right: 60px; */
 }
 .get{
  height: 0;
@@ -124,6 +137,7 @@ header{
 .welcome{
  color: rgba(249, 250, 250, 0.8);
  margin-top: 130px;
+ text-transform: uppercase;
 }
 .best{
  margin: 10px 0;
@@ -144,21 +158,22 @@ header{
  padding: 25px 0;
 }
 .get-started{
+ background:#1eb2a6;
+ color:white;
+}
+button{
+ text-transform: uppercase;
  padding: 20px 25px;
  border: none;
  border-radius: 4px;
- background:#1eb2a6;
- color:white;
  font-weight: 500;
  cursor: pointer;
 }
-
 .view-course{
- padding: 20px 25px;
- border: none;
- border-radius: 4px;
  background:white;
  color: #1eb2a6;
- font-weight: 500;
- cursor: pointer;
+}
+.arrow{
+ width:12px;
+ padding-left:10px;
 }
